@@ -1,3 +1,11 @@
 {
-    
+    "o_assignation_button_active": "o_assignation_button_active",
+    "o_assignation_button_inactive": "o_assignation_button_inactive",
+    "o_barcode_main pt-5": "o_barcode_main pt-5",
+    "o_manual_statement": "o_manual_statement",
+    "o_onboarding_confetti": "o_onboarding_confetti",
+    "o_onboarding_orange": "o_onboarding_orange",
+    "o_website_sale_search": "o_website_sale_search",
+    "o_wevent_sidebar_social mx-n1": "o_wevent_sidebar_social mx-n1",
+    "o_wevent_social_link": "o_wevent_social_link"
 }
