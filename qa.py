@@ -19,6 +19,35 @@ new_po.metadata = {
     "Content-Type": "text/plain; charset=utf-8",
 }
 
+
+def check_occurrence(entry, pattern_list):
+    match = False
+    src = entry.msgid
+    msgstr = entry.msgstr
+    for pattern in pattern_list:
+        p = re.compile(pattern)
+        q_src = p.findall(src)
+        q_dst = p.findall(msgstr)
+        if not len(q_src) == len(q_dst):
+            match = True
+            break
+
+    return match
+
+
+def check_prefix(entry, prefix_list):
+    match = False
+    src = entry.msgid
+    msgstr = entry.msgstr
+    for prefix in prefix_list:
+        if src.startswith("$") and not msgstr.startswith("$"):
+            print("%s mis-match" % prefix)
+            match = True
+            break
+
+    return match
+
+
 if __name__ == "__main__":
     top_dir = "%s/locale" % (cwd)
     for file in Path(top_dir).rglob("*.po"):
@@ -34,85 +63,31 @@ if __name__ == "__main__":
             src = entry.msgid
             msgstr = entry.msgstr
 
-            pattern = re.compile("`")
-            q_src = pattern.findall(src)
-            q_dst = pattern.findall(msgstr)
-            if len(q_src) > len(q_dst):
+            pattern_list = [
+                "`",
+                "\*",
+                "\$",
+                "%",
+                "\{",
+                "\}",
+                "<div",
+                "</div>",
+                "<table",
+                "</table>",
+                "<p",
+                "</p>",
+                "<t ",
+                "</t>",
+            ]
+            match = check_occurrence(entry, pattern_list)
+            if match:
                 bad.update({src: msgstr})
                 new_po.append(entry)
 
-            pattern = re.compile("\*")
-            s_src = pattern.findall(src)
-            s_dst = pattern.findall(msgstr)
-            if len(s_src) > len(s_dst):
-                bad.update({src: msgstr})
-                new_po.append(entry)
+            prefix_list = ["#", "+", "-", "$", "%", "\n"]
 
-            pattern = re.compile("<div ")
-            s_src = pattern.findall(src)
-            s_dst = pattern.findall(msgstr)
-            if not len(s_src) == len(s_dst):
-                print("<div mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            pattern = re.compile("</div>")
-            s_src = pattern.findall(src)
-            s_dst = pattern.findall(msgstr)
-            if not len(s_src) == len(s_dst):
-                print("</div> mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            pattern = re.compile("<table ")
-            s_src = pattern.findall(src)
-            s_dst = pattern.findall(msgstr)
-            if not len(s_src) == len(s_dst):
-                print("<table mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            pattern = re.compile("</table>")
-            s_src = pattern.findall(src)
-            s_dst = pattern.findall(msgstr)
-            if not len(s_src) == len(s_dst):
-                print("</table> mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            pattern = re.compile("<p ")
-            s_src = pattern.findall(src)
-            s_dst = pattern.findall(msgstr)
-            if not len(s_src) == len(s_dst):
-                print("<p mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            pattern = re.compile("</p>")
-            s_src = pattern.findall(src)
-            s_dst = pattern.findall(msgstr)
-            if not len(s_src) == len(s_dst):
-                print("</p> mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            if src.startswith("#") and not msgstr.startswith("#"):
-                print("# mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            if src.startswith("+") and not msgstr.startswith("+"):
-                print("+ mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            if src.startswith("-") and not msgstr.startswith("-"):
-                print("- mis-match")
-                bad.update({src: msgstr})
-                new_po.append(entry)
-
-            if src.startswith("$") and not msgstr.startswith("$"):
-                print("$ mis-match")
+            match = check_prefix(entry, prefix_list)
+            if match:
                 bad.update({src: msgstr})
                 new_po.append(entry)
 
@@ -124,7 +99,13 @@ if __name__ == "__main__":
             s_dst = re.findall(u"[\u4e00-\u9fa5]", msgstr)
             if len(s_dst) == 0 and len(src) > 16:
                 # if "`" in src or "<" in src or "{" in src or "[" in src or "$" in src:
-                if  src.startswith(':') or src.startswith('`') or src.startswith('$' )or src.startswith('%') or src.startswith('<'):
+                if (
+                    src.startswith(":")
+                    or src.startswith("`")
+                    or src.startswith("$")
+                    or src.startswith("%")
+                    or src.startswith("<")
+                ):
                     continue
                 else:
                     print("not translate")
@@ -151,7 +132,7 @@ if __name__ == "__main__":
     with open(("%s/bad/bad-1.json" % cwd), "w") as file:
         print("save to bad.json")
         print(len(res))
-        file.write(json.dumps(res, indent=4, ensure_ascii=False, sort_keys=True))
+        file.write(json.dumps(res, indent=4, ensure_ascii=False, sort_keys=False))
 
     with open(("%s/bad/bad.po" % (cwd)), "w") as file:
         print("save to po file")
