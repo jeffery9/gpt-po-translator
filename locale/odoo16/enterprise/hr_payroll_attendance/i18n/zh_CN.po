@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_attendance
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~15.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 14:09+0000\n"
+"PO-Revision-Date: 2022-09-22 05:47+0000\n"
+"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_payroll_attendance
+#: model:ir.model.fields,field_description:hr_payroll_attendance.field_hr_payslip__attendance_count
+msgid "Attendance Count"
+msgstr "出勤计数"
+
+#. module: hr_payroll_attendance
+#: model_terms:ir.ui.view,arch_db:hr_payroll_attendance.view_hr_payslip_form_inherit_payroll_attendance
+msgid "Attendances"
+msgstr "出勤"
+
+#. module: hr_payroll_attendance
+#: model:ir.model,name:hr_payroll_attendance.model_hr_contract
+msgid "Employee Contract"
+msgstr "员工合同"
+
+#. module: hr_payroll_attendance
+#: model:hr.work.entry.type,name:hr_payroll_attendance.overtime_work_entry_type
+msgid "Overtime Hours"
+msgstr "加班时间"
+
+#. module: hr_payroll_attendance
+#: model:ir.model,name:hr_payroll_attendance.model_hr_payslip
+msgid "Pay Slip"
+msgstr "工资单"
+
+#. module: hr_payroll_attendance
+#: model:ir.model,name:hr_payroll_attendance.model_hr_payslip_worked_days
+msgid "Payslip Worked Days"
+msgstr "工资单的工作天数"

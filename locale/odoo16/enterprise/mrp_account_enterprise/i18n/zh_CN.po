@@ -1,0 +1,400 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_account_enterprise
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.5alpha1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:49+0000\n"
+"PO-Revision-Date: 2022-09-22 05:47+0000\n"
+"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_mrp_production
+msgid "'Cost Analysis - %s ' % object.name"
+msgstr "‘成本分析 - %s’ % object.name"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,print_report_name:mrp_account_enterprise.action_cost_struct_product_template
+msgid "'Cost Structure Analysis - %s' % object.name"
+msgstr "‘成本结构分析 -  %s’ % object.name"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid ", from"
+msgstr ",来自"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Avg Cost of Components Per Unit</span>"
+msgstr "<span>每件物品的平均成本</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Avg Cost of Operations Per Unit</span>"
+msgstr "<span>每单位平均运营成本</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Avg Total Cost Per Unit</span>"
+msgstr "<span>每单位平均总成本</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Components</span>"
+msgstr "<span>组件</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Cost/hour</span>"
+msgstr "<span>成本/小时</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Operation</span>"
+msgstr "<span>作业</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Product</span>"
+msgstr "<span>产品</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Quantity</span>"
+msgstr "<span>数量</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Resource</span>"
+msgstr "<span>资源</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Scraps</span>"
+msgstr "<span>报废</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Total Cost</span>"
+msgstr "<span>合计成本</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Unit Cost</span>"
+msgstr "<span>单位成本</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Unit of Measure</span>"
+msgstr "<span>计量单位</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<span>Working Time</span>"
+msgstr "<span>工时</span>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Components</strong>"
+msgstr "<strong>组件总成本</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Operations</strong>"
+msgstr "<strong>作业总成本</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Cost of Scraps</strong>"
+msgstr "<strong>报废总成本</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "<strong>Total Production Cost</strong>"
+msgstr "<strong>总生产成本</strong>"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Average Component Cost / Unit"
+msgstr "平均组件成本/单位"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Average Operation Cost / Unit"
+msgstr "平均运营成本 / 单位"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Average Total Cost / Unit"
+msgstr "平均总成本/单位"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "By product(s)"
+msgstr "按产品"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__byproduct_cost
+msgid "By-Products Total Cost"
+msgstr "副产品 总成本"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_component_cost
+msgid "Component Cost / Unit"
+msgstr "组件成本/单位"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_component_cost
+msgid ""
+"Component cost per unit produced (in product UoM) of manufacturing order"
+msgstr "制造订单的每单位生产的部件成本（以产品UoM计）。"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_cost
+msgid "Cost / Unit"
+msgstr "成本/单价"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_mrp_production
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_production_form_inherit_view6
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.product_product_inherit_form_view_cost_structure
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.product_template_inherit_form_view_cost_structure
+msgid "Cost Analysis"
+msgstr "成本分析"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost Analysis Report"
+msgstr "成本分析报告"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost Breakdown of Products"
+msgstr "产品的成本明细"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.report,name:mrp_account_enterprise.action_cost_struct_product_template
+msgid "Cost Structure Analysis"
+msgstr "成本结构分析"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Components"
+msgstr "组件的成本"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Components per unit (in"
+msgstr "每单位部件的成本（以"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Operations"
+msgstr "作业的成本"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Operations per unit (in"
+msgstr "每单位运营成本（单位：美元"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Cost of Scraps"
+msgstr "报废的成本"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_cost
+msgid "Cost per unit produced (in product UoM) of manufacturing order"
+msgstr "制造订单的每单位生产成本（以产品UoM计）。"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__currency_id
+msgid "Currency"
+msgstr "币种"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_duration
+msgid "Duration of Operations / Unit"
+msgstr "作业时长/单位"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__date_finished
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "End Date"
+msgstr "终止日期"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "Group by"
+msgstr "分组"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report____last_update
+msgid "Last Modified on"
+msgstr "最后修改日"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_report_mrp_account_enterprise_mrp_cost_structure
+msgid "MRP Cost Structure Report"
+msgstr "MRP成本结构报告"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__production_id
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "Manufacturing Order"
+msgstr "制造订单"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_mrp_report
+msgid "Manufacturing Report"
+msgstr "制造报告"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.actions.act_window,help:mrp_account_enterprise.mrp_report_dashboard_action
+msgid "No data yet!"
+msgstr "还没有数据耶！"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_operation_cost
+msgid ""
+"Operation cost per unit produced (in product UoM) of manufacturing order"
+msgstr "制造订单的每单位生产的操作成本（以产品UoM计）。"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__unit_duration
+msgid "Operation duration (minutes) per unit produced of manufacturing order"
+msgstr "每一生产单位的制造订单的操作时间 (分钟)"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Order Overview"
+msgstr "订单概览"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_product_template
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__product_id
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_search_view
+msgid "Product"
+msgstr "产品"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_report_mrp_account_enterprise_product_template_cost_structure
+msgid "Product Template Cost Structure Report"
+msgstr "产品模板成本结构报告"
+
+#. module: mrp_account_enterprise
+#: model:ir.model,name:mrp_account_enterprise.model_product_product
+msgid "Product Variant"
+msgstr "产品变体"
+
+#. module: mrp_account_enterprise
+#: model:ir.actions.act_window,name:mrp_account_enterprise.mrp_report_dashboard_action
+#: model:ir.ui.menu,name:mrp_account_enterprise.mrp_dashboard_menuitem
+msgid "Production Analysis"
+msgstr "生产分析"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__qty_produced
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_report_pivot_view
+msgid "Quantity Produced"
+msgstr "已生产数量"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Some of the Manufacturing Order(s) selected are not done yet"
+msgstr "一些选中的制造订单还未完工"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__component_cost
+msgid "Total Component Cost"
+msgstr "组件总成本"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__total_cost
+msgid "Total Cost"
+msgstr "总成本"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "Total Cost per unit (in"
+msgstr "每单位总成本（以"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__duration
+msgid "Total Duration of Operations"
+msgstr "作业总时长"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__operation_cost
+msgid "Total Operation Cost"
+msgstr "作业总成本"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,field_description:mrp_account_enterprise.field_mrp_report__unit_operation_cost
+msgid "Total Operation Cost / Unit"
+msgstr "总作业成本/单位"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__component_cost
+msgid "Total cost of components for manufacturing order"
+msgstr "制造订单的部件总成本"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__total_cost
+msgid ""
+"Total cost of manufacturing order (component + operation costs + "
+"subcontracting cost)"
+msgstr "制造订单的总成本 (部件+运营成本+分包成本)"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__operation_cost
+msgid "Total cost of operations for manufacturing order"
+msgstr "制造订单的总运营成本"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__duration
+msgid "Total duration (minutes) of operations for manufacturing order"
+msgstr "制造订单的总操作时间 (分钟)"
+
+#. module: mrp_account_enterprise
+#: model:ir.model.fields,help:mrp_account_enterprise.field_mrp_report__qty_produced
+msgid "Total quantity produced in product's UoM"
+msgstr "基于产品默认计量单位的数量"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "hours"
+msgstr "小时"
+
+#. module: mrp_account_enterprise
+#: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure
+msgid "manufacturing order(s)."
+msgstr "制造订单。"

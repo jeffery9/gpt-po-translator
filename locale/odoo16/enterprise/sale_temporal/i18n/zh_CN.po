@@ -1,0 +1,463 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_temporal
+# 
+# Translators:
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# Martin Trigaux, 2022
+# Emily Jia <eji@odoo.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 06:18+0000\n"
+"PO-Revision-Date: 2022-09-22 05:48+0000\n"
+"Last-Translator: Emily Jia <eji@odoo.com>, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_template.py:0
+#, python-format
+msgid "%(amount)s (fixed)"
+msgstr "%(amount)s (固定)"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "%s %s"
+msgstr "%s%s"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__active
+msgid "Active"
+msgstr "启用"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_template_form_view_pricing
+msgid "Add a price"
+msgstr "添加一个价格"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: sale_temporal
+#: model_terms:ir.actions.act_window,help:sale_temporal.product_pricing_action
+#: model_terms:ir.actions.act_window,help:sale_temporal.sale_temporal_recurrence_action
+msgid "Create a new recurrence"
+msgstr "创建新复现"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__create_uid
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__create_date
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__currency_id
+msgid "Currency"
+msgstr "币种"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_product__product_pricing_ids
+#: model:ir.model.fields,field_description:sale_temporal.field_product_template__product_pricing_ids
+msgid "Custom Pricings"
+msgstr "习惯价格"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "Day"
+msgstr "天"
+
+#. module: sale_temporal
+#: model:ir.model.fields.selection,name:sale_temporal.selection__sale_temporal_recurrence__unit__day
+msgid "Days"
+msgstr "天"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__description
+msgid "Description"
+msgstr "说明"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__display_name
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__duration
+msgid "Duration"
+msgstr "时长"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__duration_display
+msgid "Duration Display"
+msgstr ""
+
+#. module: sale_temporal
+#: model:ir.model.fields,help:sale_temporal.field_product_product__display_price
+#: model:ir.model.fields,help:sale_temporal.field_product_template__display_price
+msgid "First leasing pricing of the product"
+msgstr "产品的首次租赁定价"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "Hour"
+msgstr "小时"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__id
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_order__internal_note
+msgid "Internal Note"
+msgstr "内部说明"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.sale_subscription_order_view_form
+msgid "Internal notes"
+msgstr "内部说明"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_product__is_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_template__is_temporal
+msgid "Is Temporal"
+msgstr "是时间性的"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing____last_update
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__write_uid
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__write_date
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_product__display_price
+#: model:ir.model.fields,field_description:sale_temporal.field_product_template__display_price
+msgid "Leasing price"
+msgstr "租赁价格"
+
+#. module: sale_temporal
+#: model:ir.model.fields,help:sale_temporal.field_sale_temporal_recurrence__duration
+msgid ""
+"Minimum duration before this rule is applied. If set to 0, it represents a "
+"fixed temporal price."
+msgstr "应用此规则之前的最小持续时间。 如果设置为0，则表示固定的时间性价格。"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "Month"
+msgstr "月"
+
+#. module: sale_temporal
+#: model:ir.model.fields.selection,name:sale_temporal.selection__sale_temporal_recurrence__unit__month
+msgid "Months"
+msgstr "月份"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__name
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__name
+msgid "Name"
+msgstr "名称"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.sale_subscription_order_view_form
+msgid "Notes"
+msgstr "备注"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_pricelist_view
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_template_form_view_pricing
+msgid "Period"
+msgstr "期间"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.sale_temporal_recurrence_view_form
+#: model_terms:ir.ui.view,arch_db:sale_temporal.sale_temporal_recurrence_view_tree
+msgid "Periodicity"
+msgstr "周期"
+
+#. module: sale_temporal
+#: model:ir.actions.act_window,name:sale_temporal.sale_temporal_recurrence_action
+msgid "Periods"
+msgstr "期间"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__price
+msgid "Price"
+msgstr "价格"
+
+#. module: sale_temporal
+#: model:ir.model,name:sale_temporal.model_product_pricelist
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__pricelist_id
+msgid "Pricelist"
+msgstr "价格表"
+
+#. module: sale_temporal
+#: model:ir.actions.act_window,name:sale_temporal.product_pricing_action
+#: model_terms:ir.ui.view,arch_db:sale_temporal.sale_temporal_product_pricing_tree
+msgid "Prices"
+msgstr "价格"
+
+#. module: sale_temporal
+#: model:ir.model,name:sale_temporal.model_product_pricing
+msgid "Pricing rule of temporal products"
+msgstr "时间性产品的价格规则"
+
+#. module: sale_temporal
+#: model:ir.model,name:sale_temporal.model_product_template
+msgid "Product"
+msgstr "产品"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__product_template_id
+msgid "Product Templates"
+msgstr "产品模板"
+
+#. module: sale_temporal
+#: model:ir.model,name:sale_temporal.model_product_product
+msgid "Product Variant"
+msgstr "产品变体"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__product_variant_ids
+msgid "Product Variants"
+msgstr "产品变体"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_pricelist_view
+msgid "Products"
+msgstr "产品"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricing__recurrence_id
+msgid "Recurrency"
+msgstr "定期"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_product_pricelist__product_pricing_ids
+msgid "Recurring Price Rules"
+msgstr "重复性价格规则"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_pricelist_view
+msgid "Recurring Pricelist Rules"
+msgstr "重复性价格表规则"
+
+#. module: sale_temporal
+#: model:ir.model,name:sale_temporal.model_sale_temporal_recurrence
+msgid "Sale temporal Recurrence"
+msgstr "销售时间性复现"
+
+#. module: sale_temporal
+#: model:ir.model,name:sale_temporal.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: sale_temporal
+#: model:ir.model,name:sale_temporal.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "销售订单行"
+
+#. module: sale_temporal
+#: model:ir.model.fields,help:sale_temporal.field_product_pricing__product_variant_ids
+msgid ""
+"Select Variants of the Product for which this rule applies. Leave empty if "
+"this rule applies for any variant of this template."
+msgstr "选择适用此规则的产品的多属性。 如果此规则适用于此模板的任何变体，请留空。"
+
+#. module: sale_temporal
+#: model:ir.model.fields,help:sale_temporal.field_product_pricing__product_template_id
+msgid "Select products on which this pricing will be applied."
+msgstr "选择适用该定价的产品"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__subscription_unit_display
+msgid "Subscription Unit Display"
+msgstr "订阅单元显示"
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_order_line__temporal_type
+msgid "Temporal Type"
+msgstr "时间性类型"
+
+#. module: sale_temporal
+#: model:ir.model.constraint,message:sale_temporal.constraint_sale_temporal_recurrence_temporal_recurrence_duration
+msgid "The pricing duration has to be greater or equal to 0."
+msgstr "定价持续时间必须大于或等于0"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_template.py:0
+#, python-format
+msgid "The product (%s) has incompatible values: %s"
+msgstr "产品(%s)有不兼容的值：%s"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_template_form_view_pricing
+msgid "Time-based pricing"
+msgstr ""
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_pricelist_view
+msgid "Time-based rules"
+msgstr ""
+
+#. module: sale_temporal
+#: model:ir.model.fields,field_description:sale_temporal.field_sale_temporal_recurrence__unit
+msgid "Unit"
+msgstr "件"
+
+#. module: sale_temporal
+#: model_terms:ir.ui.view,arch_db:sale_temporal.product_pricelist_view
+msgid "Variants"
+msgstr "变体"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "Week"
+msgstr "周"
+
+#. module: sale_temporal
+#: model:ir.model.fields.selection,name:sale_temporal.selection__sale_temporal_recurrence__unit__week
+msgid "Weeks"
+msgstr "周"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "Year"
+msgstr "年"
+
+#. module: sale_temporal
+#: model:ir.model.fields.selection,name:sale_temporal.selection__sale_temporal_recurrence__unit__year
+msgid "Years"
+msgstr "年"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricelist.py:0
+#, python-format
+msgid ""
+"You can not have a time-based rule for products that are not recurring or "
+"rentable."
+msgstr "非经常性或不可出租产品不能有基于时间的规则。"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#, python-format
+msgid ""
+"You cannot have multiple pricing for the same variant, recurrence and "
+"pricelist"
+msgstr "您不能为同一个变体、复发和价格表设置多个定价"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#: code:addons/sale_temporal/models/product_pricing.py:0
+#, python-format
+msgid "all variants"
+msgstr "所有变体"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per %s days"
+msgstr "每%s天"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per %s months"
+msgstr "每%s月"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per %s weeks"
+msgstr "每%s周"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per %s years"
+msgstr "每%s年"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per day"
+msgstr "每天"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per month"
+msgstr "每月"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per week"
+msgstr "每周"
+
+#. module: sale_temporal
+#. odoo-python
+#: code:addons/sale_temporal/models/sale_order_recurrence.py:0
+#, python-format
+msgid "per year"
+msgstr "每年"

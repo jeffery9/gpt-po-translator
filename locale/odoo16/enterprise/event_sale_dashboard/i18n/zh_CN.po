@@ -1,0 +1,40 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_sale_dashboard
+# 
+# Translators:
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 06:17+0000\n"
+"PO-Revision-Date: 2022-09-22 05:46+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: event_sale_dashboard
+#: model:ir.model.fields,field_description:event_sale_dashboard.field_event_sale_report__avg_daily_registrations
+msgid "Average Daily Registrations"
+msgstr "平均每日注册人数"
+
+#. module: event_sale_dashboard
+#: model:ir.model.fields,field_description:event_sale_dashboard.field_event_sale_report__avg_sold_daily_registrations
+msgid "Average Daily Registrations Sold"
+msgstr "平均每天售出的注册人数"
+
+#. module: event_sale_dashboard
+#: model:ir.model.fields,field_description:event_sale_dashboard.field_event_sale_report__avg_amount_sale_order
+msgid "Average Sale Order Amount"
+msgstr "平均销售订单金额"
+
+#. module: event_sale_dashboard
+#: model:ir.model,name:event_sale_dashboard.model_event_sale_report
+msgid "Event Sales Report"
+msgstr "活动销售报表"

@@ -1,0 +1,953 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_subscription_dashboard
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 06:18+0000\n"
+"PO-Revision-Date: 2022-09-22 05:48+0000\n"
+"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "# Subscriptions"
+msgstr "# 订阅"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "# of Subscriptions"
+msgstr "# 订阅"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "1 month ago"
+msgstr "1个月前"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "12 months ago"
+msgstr "12个月前"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "3 months ago"
+msgstr "3个月前"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "30 Days Ago"
+msgstr "30天前"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid "<i>There is no invoice during this period.</i>"
+msgstr "<i>在此期间没有结算单。</i>"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid "<i>There is no subscription modification during this period.</i>"
+msgstr "<i>在此期间没有订阅修改。</i>"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "Active invoices"
+msgstr "启用结算单"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Annual Run-Rate"
+msgstr "年运行率"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Apply"
+msgstr "应用"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid ""
+"Average revenue of a subscription, obtained by dividing the MRR by the "
+"number of subscriptions"
+msgstr "订阅的平均收入，由MRR除以订阅的数量获得"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Categories"
+msgstr "电商品类"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Churned MRR"
+msgstr "流失MRR"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Companies"
+msgstr "公司"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Company"
+msgstr "公司"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Current"
+msgstr "当前"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Current MRR"
+msgstr "当前MRR"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid "Current MRR ("
+msgstr "当前每月经常性收入 ("
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Current Value: "
+msgstr "当前值"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Custom"
+msgstr "自定义"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Customer Churn"
+msgstr "客户流失"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Date"
+msgstr "日期"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Date cannot be empty"
+msgstr "日期不能为空"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Dates"
+msgstr "日期"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Delta"
+msgstr "差异"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Detailed Analysis"
+msgstr "详细分析"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_detailed
+msgid "Detailed KPI"
+msgstr "详细的KPI"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Document"
+msgstr "单据"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Down MRR"
+msgstr "首付MRR"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "End Date :"
+msgstr "终止日期："
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Expansion MRR"
+msgstr "扩张MRR"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid ""
+"Expected lifetime revenue of an average subscription; obtained by dividing "
+"the average MRR of a subscription by the churn rate (e.g. if your average "
+"MRR is $ 100 and your churn rate is 5%, the LTV will be $ 100/5% = $ 2,000)"
+msgstr ""
+"平均订阅的预期终身收入；通过订阅的平均MRR除以流失率得到（例如，如果你的平均MRR是100美元，流失率是5%，LTV将是100/5%=2000美元）。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Exponential"
+msgstr "指数"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Forecasted Annual MRR Growth"
+msgstr "预测年度月MRR增长"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Forecasted Annual Subscriptions Growth"
+msgstr "预测的年度订阅增长"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_forecast
+msgid "Forecasted KPIs"
+msgstr "预测指标"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.actions.act_window,help:sale_subscription_dashboard.action_move_line_entries_report
+msgid ""
+"From this view, have an analysis of your different invoice line entries."
+msgstr "从这个图表，有不同的结算单行输入的分析。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "From:"
+msgstr "来自:"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "Group By"
+msgstr "分组"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Growth Type:"
+msgstr "成长类型"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "In"
+msgstr "在"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.act_window,name:sale_subscription_dashboard.action_move_line_entries_report
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_pivot
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "Invoice Line Entries Analysis"
+msgstr "结算单行分录分析"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
+#, python-format
+msgid ""
+"It makes no sense to sum MRR of different currencies. Please select "
+"companies with the same currency."
+msgstr "根据不同货币汇总 MRP 没有意义。请使用同一货币的公司进行汇总。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Last Financial Year"
+msgstr "上一会计年度"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Last Month"
+msgstr "上月"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Last Quarter"
+msgstr "上季度"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Lifetime Value"
+msgstr "终生价值"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Linear"
+msgstr "线性折旧"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid ""
+"List all invoices containing non-recurring sales and the amount of\n"
+"                        non-recurring revenues in these invoices for this particular salesperson."
+msgstr ""
+"列出包含非定期销售的所有结算单和\n"
+"                       此特定销售员的这些结算单中的非经常性收入。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid ""
+"List all invoices containing non-recurring sales and the amount of non-recurring\n"
+"                    revenues in these invoices for this particular salesperson."
+msgstr ""
+"列出所有包含非经常性销售的结算单，以及该特定销售人员在这些结算单中的非经常性收入的金额。\n"
+"                    收入的结算单，以及该销售人员的非经常性收入。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Loading..."
+msgstr "正在加载..."
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "MRR Growth"
+msgstr "MRR增长"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid ""
+"MRR for short; total subscription revenue per month (e.g. for an annual "
+"subscription of $ 1,200, the MRR is $ 100)"
+msgstr "简称MRR；每月的总订阅收入（例如，每年订阅1,200美元，MRR为100美元）。"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Monthly Recurring Revenue"
+msgstr "每月经常性收入"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Monthly Recurring Revenue :"
+msgstr "每月经常性收入 :"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Monthly Recurring Revenue Growth"
+msgstr "每月经常性收入增长"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Months"
+msgstr "月份"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "NRR"
+msgstr "NRR"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid "NRR ("
+msgstr "NRR ("
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Net New MRR"
+msgstr "净新MRR"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Net Revenue"
+msgstr "净收入"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "New MRR"
+msgstr "新MRR"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
+#, python-format
+msgid "No company selected."
+msgstr "未选择公司。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Non Recurring invoices"
+msgstr "非经常性结算单"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Non-Recurring Revenue"
+msgstr "非经常性收入"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Non-Recurring Revenue :"
+msgstr "非经常性收入 :"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Number of contracts"
+msgstr "合同数量"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Number of subscriptions that gets closed during a period"
+msgstr "一个时期内被关闭的订阅数量"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "OUT invoices"
+msgstr "开出结算单"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Odoo Warning"
+msgstr "Odoo警告"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "One-shot revenue that is not part of a subscription"
+msgstr "不属于订阅的一次性收入"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "PRINT PREVIEW"
+msgstr "打印预览"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Partner"
+msgstr "业务伙伴"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Pick a salesman and a period"
+msgstr "选择一个销售员和期间"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Plan"
+msgstr "安排"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Previous MRR"
+msgstr "前一个MRR"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid "Previous MRR ("
+msgstr "前一个每月经常性收入 ("
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Projection Time:"
+msgstr "项目时间"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Recurrency"
+msgstr "定期"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Reduction in total MRR over the period"
+msgstr "在此期间，总的MRR的减少"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Revenue Churn"
+msgstr "收入流失"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Revenue Churn:"
+msgstr "收入流失"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Revenue Growth:"
+msgstr "收入增长"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_main
+#: model:ir.ui.menu,name:sale_subscription_dashboard.menu_action_subscription_dashboard_report_main
+msgid "Revenue KPIs"
+msgstr "收入指标"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Revenue per Subscription"
+msgstr "每份订阅的收入"
+
+#. module: sale_subscription_dashboard
+#: model:ir.model,name:sale_subscription_dashboard.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Sales Team"
+msgstr "销售团队"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_salesman
+#: model:ir.ui.menu,name:sale_subscription_dashboard.menu_action_subscription_dashboard_report_salesman
+msgid "Salesperson Dashboard"
+msgstr "销售仪表板"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/models/sale_order.py:0
+#, python-format
+msgid "Salesperson report"
+msgstr "销售人员报告"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Sample data"
+msgstr "示例数据"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Select at least one company."
+msgstr "至少选择一个公司。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Start Date :"
+msgstr "开始日期："
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Starting MRR:"
+msgstr "MRR开始:"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Starting Subscription:"
+msgstr "开始订阅："
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Subscription"
+msgstr "订阅"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Subscription Modifications"
+msgstr "订阅修改"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid ""
+"Subscription modifications aggregate all modifications that happened in\n"
+"                        selected period. Note that modifications happening on the same day can be grouped together\n"
+"                        (e.g. two upsells occuring on the same day, or a subscription getting closed and re-opened\n"
+"                        on the same day)."
+msgstr ""
+"订阅修改聚合所有发生在选择的时期内发生的所有修改。\n"
+"                        请注意，发生在同一天的修改可以被归为一组\n"
+"                         (例如，在同一天发生的两个追加销售，或者一个订阅被关闭和重新打开\n"
+"                         在同一天）。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid ""
+"Subscription modifications aggregate all modifications that happened in selected\n"
+"                    period. Note that modifications happening on the same day can be grouped together\n"
+"                    (e.g. two upsells occuring on the same day, or a subscription getting closed and re-opened on the\n"
+"                    same day)."
+msgstr ""
+"订阅修改汇总了在选定的时期内发生的所有修改。\n"
+"                    期间发生的所有修改。请注意，发生在同一天的修改可以被归为一组\n"
+"                    (例如，在同一天发生的两个加售销售，或者一个订阅在同一天被关闭并重新打开。\n"
+"                    同一天）。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscriptions"
+msgstr "订阅"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscriptions Churn:"
+msgstr "订阅流失："
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscriptions Growth:"
+msgstr "订阅增长："
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscriptions plans"
+msgstr "订阅计划"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+#, python-format
+msgid "Template"
+msgstr "模板"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid ""
+"The current value is measured at the end of the selected period and "
+"historical data are relative to this last value."
+msgstr "当前值是在选定的时期结束时测量的，历史数据是相对于这个最后的值。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid ""
+"The following report relies on a previous calculation method. Results may "
+"differ from the new method."
+msgstr "下面的报告依靠的是以前的计算方法。结果可能与新方法不同。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "The following values are measured at the end of the selected period."
+msgstr "以下数值是在选定的时期结束时测量的。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "There is no invoice during this period."
+msgstr "在此期间没有结算单。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "There is no subscription modification during this period."
+msgstr "此期间没有订阅修改。"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "This Financial Year"
+msgstr "本财年"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "This Month"
+msgstr "本月"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "This Quarter"
+msgstr "本季度"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Total net revenue (all invoices emitted during the period)"
+msgstr "总净收入（期间发出的所有结算单）"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid ""
+"Total subscription revenue per month (e.g. for an annual subscription of $ "
+"1,200, the MRR is $ 100)"
+msgstr "每月总订阅收入（例如，对于 1,200 美元的年度订阅，MRR 为 100 美元）"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
+#, python-format
+msgid "Unknown error"
+msgstr "未知错误"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Update"
+msgstr "更新"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: sale_subscription_dashboard
+#. odoo-python
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Yearly version of the MRR, obtained by multiplying the MRR by 12"
+msgstr "MRR 的年度版本，通过将 MRR 乘以 12 获得"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "churn, your MRR will be"
+msgstr "流失，你的MMR会"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "churn, your subscription base will be"
+msgstr "客户流失，您的合同基础将"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.sales_men_pdf_template
+msgid "graphic"
+msgstr "图形"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "growth and"
+msgstr "增长和"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "months with"
+msgstr "月份和"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "subscription growth and"
+msgstr "订阅增长和"
+
+#. module: sale_subscription_dashboard
+#. odoo-javascript
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "to:"
+msgstr "to:"

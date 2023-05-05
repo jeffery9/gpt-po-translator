@@ -1,0 +1,67 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_saft
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# Emily Jia <eji@odoo.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 06:17+0000\n"
+"PO-Revision-Date: 2022-09-22 05:45+0000\n"
+"Last-Translator: Emily Jia <eji@odoo.com>, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_saft
+#: model:ir.model,name:account_saft.model_account_report
+msgid "Accounting Report"
+msgstr "会计报告"
+
+#. module: account_saft
+#: model_terms:ir.ui.view,arch_db:account_saft.saft_template
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: account_saft
+#: model_terms:ir.ui.view,arch_db:account_saft.saft_template
+msgid "Odoo SA"
+msgstr "Odoo SA"
+
+#. module: account_saft
+#. odoo-python
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
+msgid "Please define `Company Registry` for your company."
+msgstr "请为贵公司定义 \"公司注册\"。"
+
+#. module: account_saft
+#. odoo-python
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
+msgid "Please define a `Phone` or `Mobile` for your company."
+msgstr "请为您的公司定义“电话”或“手机”。"
+
+#. module: account_saft
+#. odoo-python
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
+msgid ""
+"Please define at least one address (Zip/City) for the following partners: "
+"%s."
+msgstr "请指定最少一个地址 (Zip/City) 给以下合作伙伴: 1%s"
+
+#. module: account_saft
+#. odoo-python
+#: code:addons/account_saft/models/account_general_ledger.py:0
+#, python-format
+msgid "SAFT is only compatible with one column group."
+msgstr "SAFT只兼容一个列组"

@@ -1,0 +1,113 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_disallowed_expenses_fleet
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.5alpha1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:48+0000\n"
+"PO-Revision-Date: 2022-09-22 05:45+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_account_disallowed_expenses_category__car_category
+msgid "Car Category"
+msgstr "汽车类别"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model,name:account_disallowed_expenses_fleet.model_account_disallowed_expenses_category
+msgid "Disallowed Expenses Category"
+msgstr "不允许支出类别"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model,name:account_disallowed_expenses_fleet.model_account_disallowed_expenses_fleet_report_handler
+msgid "Disallowed Expenses Fleet Custom Handler"
+msgstr "不允许费用 车队定制处理程序"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_vehicle__rate_ids
+#: model_terms:ir.ui.view,arch_db:account_disallowed_expenses_fleet.fleet_vehicle_view_form
+msgid "Disallowed Expenses Rate"
+msgstr "不允许费用率"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model,name:account_disallowed_expenses_fleet.model_account_move_line
+msgid "Journal Item"
+msgstr "会计分录"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__date_from
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model.fields,help:account_disallowed_expenses_fleet.field_account_disallowed_expenses_category__car_category
+msgid "This checkbox makes the vehicle mandatory while booking a vendor bill."
+msgstr "此复选框使车辆在预订供应商账单时为必填项。"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model,name:account_disallowed_expenses_fleet.model_fleet_vehicle
+#: model:ir.model.fields,field_description:account_disallowed_expenses_fleet.field_fleet_disallowed_expenses_rate__vehicle_id
+msgid "Vehicle"
+msgstr "车辆"
+
+#. module: account_disallowed_expenses_fleet
+#: model:ir.model,name:account_disallowed_expenses_fleet.model_fleet_disallowed_expenses_rate
+msgid "Vehicle Disallowed Expenses Rate"
+msgstr "车辆不允许费用率"
+
+#. module: account_disallowed_expenses_fleet
+#: model_terms:ir.ui.view,arch_db:account_disallowed_expenses_fleet.disallowed_expenses_fleet_search_template_extra_options
+msgid "Vehicle Split"
+msgstr "车辆拆分"

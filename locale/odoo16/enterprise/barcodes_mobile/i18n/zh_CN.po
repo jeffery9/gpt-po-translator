@@ -1,0 +1,41 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* barcodes_mobile
+# 
+# Translators:
+# Martin Trigaux, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 06:17+0000\n"
+"PO-Revision-Date: 2022-10-04 09:53+0000\n"
+"Last-Translator: Martin Trigaux, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: barcodes_mobile
+#. odoo-javascript
+#: code:addons/barcodes_mobile/static/src/xml/barcodes.xml:0
+#, python-format
+msgid "Barcode"
+msgstr "条码"
+
+#. module: barcodes_mobile
+#. odoo-javascript
+#: code:addons/barcodes_mobile/static/src/js/barcode_mobile_mixin.js:0
+#, python-format
+msgid "Please, Scan again !"
+msgstr "请再扫描一次!"
+
+#. module: barcodes_mobile
+#. odoo-javascript
+#: code:addons/barcodes_mobile/static/src/xml/barcodes.xml:0
+#, python-format
+msgid "Tap to scan"
+msgstr "点击即可扫描"

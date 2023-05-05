@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_barcode_product_expiry
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0beta+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 13:29+0000\n"
+"PO-Revision-Date: 2022-09-23 08:35+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_barcode_product_expiry
+#: model_terms:ir.ui.view,arch_db:stock_barcode_product_expiry.stock_move_line_product_selector
+msgid "<i class=\"fa fa-fw fa-lg fa-calendar me-3\" title=\"Expiration Date\"/>"
+msgstr "<i class=\"fa fa-fw fa-lg fa-calendar me-3\" title=\"Expiration Date\"/>"
+
+#. module: stock_barcode_product_expiry
+#: model_terms:ir.ui.view,arch_db:stock_barcode_product_expiry.stock_move_line_product_selector
+msgid ""
+"<span class=\"fa fa-exclamation-triangle text-danger ms-4\" attrs=\"{'invisible': ['|', ('is_expired', '=', False), ('picking_type_use_existing_lots', '=', False)]}\">\n"
+"                        This lot is expired\n"
+"                    </span>"
+msgstr ""
+"<span class=\"fa fa-exclamation-triangle text-danger ms-4\" attrs=\"{'invisible': ['|', ('is_expired', '=', False), ('picking_type_use_existing_lots', '=', False)]}\">\n"
+"                        这个批次已过期\n"
+"                    </span>"
+
+#. module: stock_barcode_product_expiry
+#: model:ir.model,name:stock_barcode_product_expiry.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "产品移动(移库明细)"
+
+#. module: stock_barcode_product_expiry
+#: model:ir.model,name:stock_barcode_product_expiry.model_product_product
+msgid "Product Variant"
+msgstr "产品变体"

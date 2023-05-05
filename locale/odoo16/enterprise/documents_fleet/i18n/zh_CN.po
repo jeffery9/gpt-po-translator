@@ -1,0 +1,37 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* documents_fleet
+# 
+# Translators:
+# Felix Yuen <fyu@odoo.com>, 2022
+# Martin Trigaux, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 13:29+0000\n"
+"PO-Revision-Date: 2022-12-16 09:32+0000\n"
+"Last-Translator: Martin Trigaux, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: documents_fleet
+#: model:documents.tag,name:documents_fleet.documents_fine
+msgid "Fine"
+msgstr "精细"
+
+#. module: documents_fleet
+#: model:documents.facet,name:documents_fleet.documents_fleet
+#: model:documents.folder,name:documents_fleet.documents_fleet_folder
+msgid "Fleet"
+msgstr "车队"
+
+#. module: documents_fleet
+#: model:documents.tag,name:documents_fleet.documents_vehicles
+msgid "Vehicles Documents"
+msgstr "车辆文档"

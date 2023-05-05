@@ -1,0 +1,259 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* event_barcode
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 06:17+0000\n"
+"PO-Revision-Date: 2022-09-22 05:46+0000\n"
+"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#: model:ir.model.fields,field_description:event_barcode.field_event_registration__barcode
+#: model_terms:ir.ui.view,arch_db:event_barcode.event_report_template_full_page_ticket_inherit_barcode
+#, python-format
+msgid "Barcode"
+msgstr "条码"
+
+#. module: event_barcode
+#: model:ir.actions.client,name:event_barcode.event_barcode_action_main_view
+msgid "Barcode Interface"
+msgstr "条码接口"
+
+#. module: event_barcode
+#: model_terms:ir.ui.view,arch_db:event_barcode.res_config_settings_view_form
+msgid "Barcode Nomenclature"
+msgstr "条码命名规则"
+
+#. module: event_barcode
+#: model:ir.model.constraint,message:event_barcode.constraint_event_registration_barcode_event_uniq
+msgid "Barcode should be unique"
+msgstr "条码应该是唯一的"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Canceled registration"
+msgstr "取消的登记"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Close"
+msgstr "关闭"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Company"
+msgstr "公司"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Company Logo"
+msgstr "公司 Logo"
+
+#. module: event_barcode
+#: model:ir.model,name:event_barcode.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Confirm"
+msgstr "确认"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Confirm attendance for"
+msgstr "确认参加"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Event"
+msgstr "活动"
+
+#. module: event_barcode
+#: model:ir.model,name:event_barcode.model_event_registration
+msgid "Event Registration"
+msgstr "活动登记"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Events"
+msgstr "活动"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Invalid ticket"
+msgstr "无效门票"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Name"
+msgstr "名称"
+
+#. module: event_barcode
+#: model:ir.model.fields,field_description:event_barcode.field_res_config_settings__barcode_nomenclature_id
+msgid "Nomenclature"
+msgstr "命名规则"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Payment"
+msgstr "支付"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Print"
+msgstr "打印"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Registration"
+msgstr "登记"
+
+#. module: event_barcode
+#. odoo-python
+#: code:addons/event_barcode/controllers/main.py:0
+#: model:ir.ui.menu,name:event_barcode.menu_event_registration_desk
+#: model_terms:ir.ui.view,arch_db:event_barcode.event_event_view_form
+#, python-format
+msgid "Registration Desk"
+msgstr "登记处"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Registration Summary"
+msgstr "登记摘要"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Registration confirmed"
+msgstr "确认登记"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Scan a badge"
+msgstr "扫描徽标"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Select Attendee"
+msgstr "选择参会者"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "The registration must be paid"
+msgstr "登记必须完成支付。"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "This ticket is for another event"
+msgstr "这张票是另一个活动"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "This ticket is not for an ongoing event"
+msgstr "该票不适用于正在进行的活动"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Ticket"
+msgstr "门票"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "View"
+msgstr "视图"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/js/event_barcode.js:0
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "Welcome to"
+msgstr "欢迎"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "is already registered"
+msgstr " 已被登记"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "is successfully registered"
+msgstr "已经成功登记"
+
+#. module: event_barcode
+#. odoo-javascript
+#: code:addons/event_barcode/static/src/xml/event_barcode.xml:0
+#, python-format
+msgid "or"
+msgstr "或"

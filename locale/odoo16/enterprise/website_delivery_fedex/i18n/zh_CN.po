@@ -1,0 +1,106 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_delivery_fedex
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-14 06:19+0000\n"
+"PO-Revision-Date: 2022-09-22 05:49+0000\n"
+"Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2022\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_delivery_fedex
+#: model_terms:ir.ui.view,arch_db:website_delivery_fedex.payment_delivery_methods_inherit_website_sale_delivery
+msgid ""
+"<b class=\"o_fedex_order_location\"/>\n"
+"                    <span class=\"fa fa-trash-o ms-2 o_remove_fedex_order_location\" aria-label=\"Remove this location\" title=\"Remove this location\"/>"
+msgstr ""
+"<b class=\"o_fedex_order_location\"/>\n"
+"                <span class=\"fa fa-trash-o ms-2 o_remove_fedex_order_location\" aria-label=\"Remove this location\" title=\"Remove this location\"/>"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields,help:website_delivery_fedex.field_delivery_carrier__fedex_use_locations
+msgid ""
+"Allows the ecommerce user to choose a pick-up point as delivery address."
+msgstr "允许电子商务用户来选择一个取货点作为发货地址。"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields,field_description:website_delivery_fedex.field_sale_order__fedex_access_point_address
+msgid "Fedex Address"
+msgstr "Fedex 地址"
+
+#. module: website_delivery_fedex
+#. odoo-python
+#: code:addons/website_delivery_fedex/models/fedex_locations_request.py:0
+#, python-format
+msgid "Fedex Server Not Found"
+msgstr "未找到Fedex服务器"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields,field_description:website_delivery_fedex.field_delivery_carrier__fedex_locations_radius_unit
+msgid "Locations Distance Unit"
+msgstr "位置距离单位"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields,field_description:website_delivery_fedex.field_delivery_carrier__fedex_locations_radius_value
+msgid "Locations Radius"
+msgstr "位置半径"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields,help:website_delivery_fedex.field_delivery_carrier__fedex_locations_radius_value
+msgid "Maximum locations distance radius."
+msgstr "最大位置距离半径。"
+
+#. module: website_delivery_fedex
+#: model:ir.model,name:website_delivery_fedex.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: website_delivery_fedex
+#. odoo-javascript
+#: code:addons/website_delivery_fedex/static/src/xml/fedex_pickup_locations.xml:0
+#, python-format
+msgid "Select this location"
+msgstr "选择这个位置"
+
+#. module: website_delivery_fedex
+#: model:ir.model,name:website_delivery_fedex.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "送货方式"
+
+#. module: website_delivery_fedex
+#. odoo-python
+#: code:addons/website_delivery_fedex/models/fedex_locations_request.py:0
+#, python-format
+msgid ""
+"There was an error retrieving Fedex localisations:\n"
+"%s"
+msgstr ""
+"检索Fedex本地化时出现错误：\n"
+"%s"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields,field_description:website_delivery_fedex.field_delivery_carrier__fedex_use_locations
+msgid "Use Fedex Locations"
+msgstr "使用 Fedex 位置"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields.selection,name:website_delivery_fedex.selection__delivery_carrier__fedex_locations_radius_unit__km
+msgid "km"
+msgstr "千米"
+
+#. module: website_delivery_fedex
+#: model:ir.model.fields.selection,name:website_delivery_fedex.selection__delivery_carrier__fedex_locations_radius_unit__mi
+msgid "mi"
+msgstr "英里"

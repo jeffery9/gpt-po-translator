@@ -1,0 +1,243 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_workorder_hr
+# 
+# Translators:
+# Martin Trigaux, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# Tony Peng <umingpeng@gmail.com>, 2022
+# Raymond Yu <cl_yu@hotmail.com>, 2022
+# Emily Jia <eji@odoo.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 13:29+0000\n"
+"PO-Revision-Date: 2022-09-22 05:47+0000\n"
+"Last-Translator: Emily Jia <eji@odoo.com>, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/working_employee_popup.xml:0
+#, python-format
+msgid "+ New Operator"
+msgstr "+ 新操作员"
+
+#. module: mrp_workorder_hr
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_hr.mrp_workorder_view_tablet_form_inherit_workorder_hr
+msgid ""
+"<span attrs=\"{'invisible': [('employee_name', '!=', False)]}\">Log In "
+"</span>"
+msgstr "<span attrs=\"{'invisible': [('employee_name', '!=', False)]}\">登录</span>"
+
+#. module: mrp_workorder_hr
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_hr.mrp_workcenter_form_view_inherit
+msgid "Allowed Employees"
+msgstr "允许的员工"
+
+#. module: mrp_workorder_hr
+#: model:ir.model,name:mrp_workorder_hr.model_report_mrp_report_bom_structure
+msgid "BOM Overview Report"
+msgstr "BOM总览报表"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/pin_popup.xml:0
+#: code:addons/mrp_workorder_hr/static/src/components/popup.xml:0
+#, python-format
+msgid "Cancel"
+msgstr "取消"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/tablet.js:0
+#, python-format
+msgid "Change Worker"
+msgstr "更换工人"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/working_employee_popup.xml:0
+#, python-format
+msgid "Continue"
+msgstr "继续"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter_productivity__total_cost
+msgid "Cost"
+msgstr "成本"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter__currency_id
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter_productivity__currency_id
+msgid "Currency"
+msgstr "币种"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/working_employee_popup.xml:0
+#: model:ir.model,name:mrp_workorder_hr.model_hr_employee
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter_productivity__employee_id
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workorder__employee_id
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_quality_check__employee_id
+#, python-format
+msgid "Employee"
+msgstr "员工"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_routing_workcenter__employee_ratio
+msgid "Employee Capacity"
+msgstr "员工能力"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter__employee_costs_hour
+msgid "Employee Hourly Cost"
+msgstr "员工小时成本"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workorder__employee_name
+msgid "Employee Name"
+msgstr "员工姓名"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/views/xml/mrp_workorder_buttons.xml:0
+#, python-format
+msgid "Log In"
+msgstr "登录"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/views/kanban/mrp_workorder_kanban_controller.js:0
+#: code:addons/mrp_workorder_hr/static/src/views/list/mrp_workorder_list_controller.js:0
+#, python-format
+msgid "Logged in!"
+msgstr "已登录！"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,help:mrp_workorder_hr.field_mrp_routing_workcenter__employee_ratio
+msgid "Number of employees needed to complete operation."
+msgstr "完成操作所需的员工数量。"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/pin_popup.xml:0
+#, python-format
+msgid "Ok"
+msgstr "确定"
+
+#. module: mrp_workorder_hr
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_hr.mrp_workcenter_form_view_inherit
+msgid "Operations"
+msgstr "作业"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/pin_popup.xml:0
+#, python-format
+msgid "Password ?"
+msgstr "密码？"
+
+#. module: mrp_workorder_hr
+#: model:ir.model,name:mrp_workorder_hr.model_propose_change
+msgid "Propose a change in the production"
+msgstr "生产的改变提议"
+
+#. module: mrp_workorder_hr
+#: model:ir.model,name:mrp_workorder_hr.model_quality_check
+msgid "Quality Check"
+msgstr "质量检查"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter__allow_employee
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workorder__allow_employee
+msgid "Requires Log In"
+msgstr "需要登录"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/views/kanban/mrp_workorder_kanban_controller.js:0
+#: code:addons/mrp_workorder_hr/static/src/views/list/mrp_workorder_list_controller.js:0
+#, python-format
+msgid "Select Employee"
+msgstr "选择员工"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/components/working_employee_popup.xml:0
+#, python-format
+msgid "Stop"
+msgstr "停止"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/views/kanban/mrp_workorder_kanban_controller.js:0
+#: code:addons/mrp_workorder_hr/static/src/views/list/mrp_workorder_list_controller.js:0
+#, python-format
+msgid "This employee is not allowed on this workcenter"
+msgstr "该员工不允许在这个工作中心工作"
+
+#. module: mrp_workorder_hr
+#: model:ir.model,name:mrp_workorder_hr.model_mrp_workcenter
+msgid "Work Center"
+msgstr "工作中心"
+
+#. module: mrp_workorder_hr
+#: model:ir.model,name:mrp_workorder_hr.model_mrp_routing_workcenter
+msgid "Work Center Usage"
+msgstr "工作中心使用情况"
+
+#. module: mrp_workorder_hr
+#: model:ir.model,name:mrp_workorder_hr.model_mrp_workorder
+msgid "Work Order"
+msgstr "工单"
+
+#. module: mrp_workorder_hr
+#: model:ir.model,name:mrp_workorder_hr.model_mrp_workcenter_productivity
+msgid "Workcenter Productivity Log"
+msgstr "工作中心生产力日志"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workorder__employee_ids
+msgid "Working Employees"
+msgstr "在职员工"
+
+#. module: mrp_workorder_hr
+#. odoo-javascript
+#: code:addons/mrp_workorder_hr/static/src/views/kanban/mrp_workorder_kanban_controller.js:0
+#: code:addons/mrp_workorder_hr/static/src/views/list/mrp_workorder_list_controller.js:0
+#, python-format
+msgid "Wrong password !"
+msgstr "错误的密码！"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,help:mrp_workorder_hr.field_mrp_workcenter_productivity__employee_id
+msgid "employee that record this working time"
+msgstr "记录该工作时间的员工"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter_productivity__employee_cost
+msgid "employee_cost"
+msgstr "employee_cost"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,field_description:mrp_workorder_hr.field_mrp_workcenter__employee_ids
+msgid "employees with access"
+msgstr "有权限的员工"
+
+#. module: mrp_workorder_hr
+#: model:ir.model.fields,help:mrp_workorder_hr.field_mrp_workcenter__employee_ids
+msgid "if left empty, all employees can log in to the workcenter"
+msgstr "如果留空，所有员工都可以登录工作中心"
+
+#. module: mrp_workorder_hr
+#: model_terms:ir.ui.view,arch_db:mrp_workorder_hr.mrp_workcenter_form_view_inherit
+msgid "per employee"
+msgstr "每位员工"
