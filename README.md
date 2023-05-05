@@ -12,5 +12,6 @@ To **Havrest** and improve the **Quality**
 
 - run `python main.py` to havrest your translated PO files.
 - run `python qa.py` to validate the PO files, and extract the bad PO entries into One PO which used to review and correct the wrong.
+- run `python cache.py` to make cache
 
 thanks.
