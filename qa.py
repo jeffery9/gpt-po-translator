@@ -35,124 +35,124 @@ if __name__ == "__main__":
             src = entry.msgid
             msgstr = entry.msgstr
 
-            # pattern = re.compile("`")
-            # q_src = pattern.findall(src)
-            # q_dst = pattern.findall(msgstr)
-            # if len(q_src) > len(q_dst):
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("`")
+            q_src = pattern.findall(src)
+            q_dst = pattern.findall(msgstr)
+            if len(q_src) > len(q_dst):
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # pattern = re.compile("\*")
-            # s_src = pattern.findall(src)
-            # s_dst = pattern.findall(msgstr)
-            # if len(s_src) > len(s_dst):
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("\*")
+            s_src = pattern.findall(src)
+            s_dst = pattern.findall(msgstr)
+            if len(s_src) > len(s_dst):
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # pattern = re.compile("<div ")
-            # s_src = pattern.findall(src)
-            # s_dst = pattern.findall(msgstr)
-            # if not len(s_src) == len(s_dst):
-            #     print("<div mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("<div ")
+            s_src = pattern.findall(src)
+            s_dst = pattern.findall(msgstr)
+            if not len(s_src) == len(s_dst):
+                print("<div mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # pattern = re.compile("</div>")
-            # s_src = pattern.findall(src)
-            # s_dst = pattern.findall(msgstr)
-            # if not len(s_src) == len(s_dst):
-            #     print("</div> mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("</div>")
+            s_src = pattern.findall(src)
+            s_dst = pattern.findall(msgstr)
+            if not len(s_src) == len(s_dst):
+                print("</div> mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # pattern = re.compile("<table ")
-            # s_src = pattern.findall(src)
-            # s_dst = pattern.findall(msgstr)
-            # if not len(s_src) == len(s_dst):
-            #     print("<table mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("<table ")
+            s_src = pattern.findall(src)
+            s_dst = pattern.findall(msgstr)
+            if not len(s_src) == len(s_dst):
+                print("<table mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # pattern = re.compile("</table>")
-            # s_src = pattern.findall(src)
-            # s_dst = pattern.findall(msgstr)
-            # if not len(s_src) == len(s_dst):
-            #     print("</table> mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("</table>")
+            s_src = pattern.findall(src)
+            s_dst = pattern.findall(msgstr)
+            if not len(s_src) == len(s_dst):
+                print("</table> mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # pattern = re.compile("<p ")
-            # s_src = pattern.findall(src)
-            # s_dst = pattern.findall(msgstr)
-            # if not len(s_src) == len(s_dst):
-            #     print("<p mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("<p ")
+            s_src = pattern.findall(src)
+            s_dst = pattern.findall(msgstr)
+            if not len(s_src) == len(s_dst):
+                print("<p mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # pattern = re.compile("</p>")
-            # s_src = pattern.findall(src)
-            # s_dst = pattern.findall(msgstr)
-            # if not len(s_src) == len(s_dst):
-            #     print("</p> mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            pattern = re.compile("</p>")
+            s_src = pattern.findall(src)
+            s_dst = pattern.findall(msgstr)
+            if not len(s_src) == len(s_dst):
+                print("</p> mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # if src.startswith("#") and not msgstr.startswith("#"):
-            #     print("# mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            if src.startswith("#") and not msgstr.startswith("#"):
+                print("# mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # if src.startswith("+") and not msgstr.startswith("+"):
-            #     print("+ mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            if src.startswith("+") and not msgstr.startswith("+"):
+                print("+ mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # if src.startswith("-") and not msgstr.startswith("-"):
-            #     print("- mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            if src.startswith("-") and not msgstr.startswith("-"):
+                print("- mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # if src.startswith("$") and not msgstr.startswith("$"):
-            #     print("$ mis-match")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            if src.startswith("$") and not msgstr.startswith("$"):
+                print("$ mis-match")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # if len(msgstr) / len(src) > 1:
-            #     print("excessive")
-            #     bad.update({src: msgstr})
-            #     new_po.append(entry)
+            if len(msgstr) / len(src) > 1:
+                print("excessive")
+                bad.update({src: msgstr})
+                new_po.append(entry)
 
-            # s_dst = re.findall(u"[\u4e00-\u9fa5]", msgstr)
-            # if len(s_dst) == 0 and len(src) > 16:
-            #     # if "`" in src or "<" in src or "{" in src or "[" in src or "$" in src:
-            #     if  src.startswith(':') or src.startswith('`') or src.startswith('$' )or src.startswith('%') or src.startswith('<'):
-            #         continue
-            #     else:
-            #         print("not translate")
-            #         bad.update({src: msgstr})
-            #         new_po.append(entry)
-
-            link = re.findall(r"(:\w+:)?(?<!`)(`[^`]+`)(?!`)", src)
-            if link:
-                if len(src) == len(msgstr.strip()):
+            s_dst = re.findall(u"[\u4e00-\u9fa5]", msgstr)
+            if len(s_dst) == 0 and len(src) > 16:
+                # if "`" in src or "<" in src or "{" in src or "[" in src or "$" in src:
+                if  src.startswith(':') or src.startswith('`') or src.startswith('$' )or src.startswith('%') or src.startswith('<'):
                     continue
-
                 else:
-
-                    print("found link.")
+                    print("not translate")
                     bad.update({src: msgstr})
                     new_po.append(entry)
 
-    # test_dict_list = list(bad.items())
-    # test_dict_list.sort(key=lambda x: len(x[0]))
+            # link = re.findall(r"(:\w+:)?(?<!`)(`[^`]+`)(?!`)", src)
+            # if link:
+            #     if len(src) == len(msgstr.strip()):
+            #         continue
 
-    # # reordering to dictionary
-    # res = {ele[0]: ele[1] for ele in test_dict_list}
+            #     else:
+
+            #         print("found link.")
+            #         bad.update({src: msgstr})
+            #         new_po.append(entry)
+
+    test_dict_list = list(bad.items())
+    test_dict_list.sort(key=lambda x: len(x[0]))
+
+    # reordering to dictionary
+    res = {ele[0]: ele[1] for ele in test_dict_list}
 
     with open(("%s/bad/bad-1.json" % cwd), "w") as file:
         print("save to bad.json")
-        print(len(bad))
-        file.write(json.dumps(bad, indent=4, ensure_ascii=False, sort_keys=True))
+        print(len(res))
+        file.write(json.dumps(res, indent=4, ensure_ascii=False, sort_keys=True))
 
     with open(("%s/bad/bad.po" % (cwd)), "w") as file:
         print("save to po file")
