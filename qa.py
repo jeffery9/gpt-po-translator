@@ -18,7 +18,6 @@ new_po.metadata = {
     "MIME-Version": 1.0,
     "Content-Type": "text/plain; charset=utf-8",
 }
-proj = "doc16"
 
 if __name__ == "__main__":
     top_dir = "%s/locale" % (cwd)
