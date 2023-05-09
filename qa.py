@@ -29,6 +29,7 @@ def check_occurrence(entry, pattern_list):
         q_src = p.findall(src)
         q_dst = p.findall(msgstr)
         if not len(q_src) == len(q_dst):
+            print("r\"%s\" mis-match" % pattern)
             match = True
             break
 

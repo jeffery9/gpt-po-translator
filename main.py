@@ -12,6 +12,13 @@ import openai
 import polib
 import time
 
+map = {
+    "Chinese": "zh_CN",
+    "Traditional Chinese": "zh_TW",
+}
+map_e = {"zh_CN": "Chinese", "zh_TW": "Traditional Chinese"}
+map_c = {"zh_CN": "中文", "zh_TW": "繁体中文"}
+
 cwd = Path(__file__).parent
 
 with open("%s/locale/data.json" % cwd, "r", encoding="utf8") as fp:
@@ -35,8 +42,11 @@ def get_key():
     return next(keys), 60 / rate_limit / len(key_list)
 
 
-def translate_po(fn):
+def translate_po(fn, locale):
     po_file = polib.pofile(fn)
+
+    lang_e = map_e.get(locale)
+    lang_c = map_c.get(locale)
 
     for entry in po_file:
         origin_msgstr = entry.msgstr
@@ -62,7 +72,7 @@ def translate_po(fn):
                 entry.msgstr = ""
                 print(entry)
                 print("+++++++ translated into... ")
-                n_string = chat_completion_html(entry.msgid, key)
+                n_string = chat_completion_html(entry.msgid, lang_e, key)
                 print(n_string)
                 print("*" * 40)
                 if not n_string.startswith('msgid "'):
@@ -110,7 +120,7 @@ def translate_po(fn):
     po_file.save()
 
 
-def chat_completion_po(entry, key):
+def chat_completion_po(entry, lang, key):
     try:
         message_log = [
             {
@@ -123,7 +133,7 @@ def chat_completion_po(entry, key):
         message_log.append(
             {
                 "role": "user",
-                "content": "将msgstr翻译为中文，正确处理 reStructuredText 标签，返回合格的gettext portable object, 无需解释。 \n\n%s"
+                "content": f"将msgstr翻译为{lang}，正确处理 reStructuredText 标签，返回合格的gettext portable object, 无需解释。 \n\n{entry}\n"
                 % str(entry),
             }
         )
@@ -145,7 +155,7 @@ def chat_completion_po(entry, key):
         raise e
 
 
-def chat_completion_html(entry, key):
+def chat_completion_html(content, lang, key):
     try:
         message_log = [
             {
@@ -158,7 +168,7 @@ def chat_completion_html(entry, key):
         message_log.append(
             {
                 "role": "user",
-                "content": f"Translate the following text to Chinese, maintaining the format and style, without providing explanations or expansions: \n\n{entry}\n ",
+                "content": f"Translate the following text to {lang}, maintaining the format and style, without providing explanations or expansions: \n\n{content}\n",
             }
         )
 
@@ -180,12 +190,15 @@ def chat_completion_html(entry, key):
 
 if __name__ == "__main__":
     top_dir = "%s/locale/" % cwd
-    for file in Path(top_dir).rglob("*.po"):
+    # TODO change this to your locale
+    locale = "zh_CN"
+
+    for file in Path(top_dir).rglob(f"{locale}.po"):
         print(file)
         if "l10n_" in str(file) and not "l10n_multilang" in str(file):
             continue
 
-        translate_po(str(file))
+        translate_po(str(file), locale)
 
         # save cache to data.json
         with open(("%s/data.json" % cwd), "w") as file:
