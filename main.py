@@ -29,8 +29,9 @@ cache = json_data
 buffer = io.StringIO()
 rate_limit = 3  # each key rate limit is 3 calls per minutes
 
-key = os.getenv("OPENAI_KEY")
-key_list = key.split(",")
+# key = os.getenv("OPENAI_KEY")
+# key_list = key.split(","[)
+key_list = []
 keys = itertools.cycle(key_list)
 
 
@@ -38,6 +39,9 @@ def get_key():
     with open("%s/keys.json" % cwd, "r", encoding="utf8") as fp:
         d = json.load(fp)
         key_list.extend(d.get("keys"))
+
+    if len(key_list) == 0:
+        raise ZeroDivisionError
 
     return next(keys), 60 / rate_limit / len(key_list)
 
