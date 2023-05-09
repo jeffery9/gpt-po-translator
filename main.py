@@ -27,7 +27,9 @@ with open("%s/locale/data.json" % cwd, "r", encoding="utf8") as fp:
 cache = json_data
 
 buffer = io.StringIO()
-rate_limit = 3  # each key rate limit is 3 calls per minutes
+
+#TODO change this for your situation
+rate_limit = 3  # each key rate limit is 3 reqeusts per minute
 
 # key = os.getenv("OPENAI_KEY")
 # key_list = key.split(","[)
