@@ -131,7 +131,7 @@ def chat_completion_po(entry, lang, key):
                 "role": "user",
                 # "content": f"You are an experienced ERP consultant proficient in both Chinese and English Please translate the MSGSTR field of the next GetText portable object entry into Chinese, and restricted to GetText portable objects are returned.",
                 # "content": "You are technical translator with fluent Englis and Chinese, and a expert of odoo with the knowledge about how to localize gettext portable object",
-                "content": "你是一位技术译员，精通中文和英文，并且是一位Odoo专家，熟练掌握gettext portable object翻译的技巧，非常熟悉 reStructuredText 规范和 markdown 规范，知道如何处理相关标签。",
+                "content": f"你是一位技术译员，精通{lang}和英文，并且是一位Odoo专家，熟练掌握gettext portable object翻译的技巧，非常熟悉 reStructuredText 规范和 markdown 规范，知道如何处理相关标签。",
             }
         ]
         message_log.append(
@@ -166,7 +166,7 @@ def chat_completion_html(content, lang, key):
                 "role": "system",
                 # "content": f"You are an experienced ERP consultant proficient in both Chinese and English Please translate the MSGSTR field of the next GetText portable object entry into Chinese, and restricted to GetText portable objects are returned.",
                 # "content": "You are technical translator with fluent Englis and Chinese, and a expert of odoo with the knowledge about how to localize gettext portable object",
-                "content": "你是一位技术译员，精通中文和英文，并且是一位Odoo专家，非常熟悉 HTML规范， reStructuredText 规范，以及 markdown 规范，知道如何正确处理相关标签。",
+                "content": f"As a technical translator skilled in {lang} and English, you excel in Odoo and are well-versed in HTML, reStructuredText, and markdown standards. Your expertise allows you to effectively manage related tags.",
             }
         ]
         message_log.append(
